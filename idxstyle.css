@@ -1,0 +1,78 @@
+/*CSS RESET*/
+* {
+        margin:0;
+        padding:0;
+
+}
+body{
+    background-color: #d8d7ff;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 19px;
+}
+/*header*/
+header{
+    padding: 25px;
+    font-weight: 24px;
+    background: linear-gradient(37deg, #723f94, #5954e1);
+        text-align: center;
+    }
+
+
+header nav ul li{
+    display: inline;
+    
+}
+header nav ul li a{
+ text-decoration: none;
+    font-weight: bold;
+}
+
+/* main */
+
+main section{
+    padding: 20px;
+    margin: 10px auto   ;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+
+
+}
+main section{
+    margin: 10px;
+}
+
+
+
+/* seção */
+article{
+    margin-bottom: 15px;
+        padding: 10px;
+        font-size: 20px;
+}
+article a{
+    text-decoration: none;
+    font-weight: bold;
+}
+article a:hover{
+    color: navy;
+}
+
+/* RODAPÉ */
+
+footer{
+    color: #838285;
+    text-align: center;
+}
+footer a{
+        color:#22053d;
+        text-decoration:none;
+
+        
+        
+}
+footer a:hover {
+text-decoration: underline;
+}
+.pesquisa {
+    margin-right: 1200px;
+}
