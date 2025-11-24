@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="scr.js"></script>
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="sty.css">
+</head>
+<body>
+    <div class="containerBig">
+        <div class="containerSmall">    
+            <div style="text-align: center; ;padding-top: 5px;">Parquímetro Digital</div>
+            <div style="text-align: center; padding-top: 5px;">Tabela de preços</div>
+            <ul class="container" >
+            <div><strong>R$ 1,00 </strong>- 30 minutos</div>
+            <div style="padding-bottom: 3px;padding-top: 3px;"><strong>R$1,75 </strong>- 60 minutos</strong></div>
+            <div><strong>R$3,00 </strong>- 120 minutos</div>
+            </ul>
+          <div class="interacaoBotao">        
+        <label for="valores">Valor :</label>
+        <input type="number" id="entradaValor" class="input" placeholder="Ex.: 3,00" min="1">
+        <br>
+        <button id="botao-interativo" type="button"   >Calcular</button>
+          </div>
+        </div>
+        <br>
+                <div style="padding-top: 7px;">
+        <div class="containerSnd">
+            <div id="mostrador"></div>
+        </div>
+                </div>
+    </div>
+</body>
+</html>
