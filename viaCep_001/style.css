@@ -1,0 +1,37 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.tittle{
+    text-align: center;
+    padding-bottom: 20px;
+}
+.formulario{
+    text-align: center;
+    border-color: aliceblue;
+}
+.Cep{
+    padding: 2px;
+    margin: 5px;
+}
+.Logradouro{
+    padding: 2px;
+    margin: 5px;
+}
+.Bairro{
+    padding: 2px;
+    margin: 5px;
+}
+.Cidade{
+    padding: 2px;
+    margin: 5px;
+}
+.Estado{
+    padding: 2px;
+    margin: 5px;
+}
+.Numero{
+    padding: 2px;
+    margin: 5px;
+}
